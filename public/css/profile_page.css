@@ -1,0 +1,201 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.Main-head { 
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+    background: rgb(255, 255, 255);
+    padding: 1rem 0px;
+}
+
+.Container-for-head {
+    max-width: 80rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 1rem;
+}
+
+.User-main-container {
+    max-width: 80rem;
+    margin: 0px auto;
+    padding: 0px 1rem;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.User-details-container {
+    display: flex;
+    padding: 0.625rem 0px 1.5rem;
+    padding-top: 1.5rem;
+    padding-right: 0px;
+    padding-bottom: 1.5rem;
+    padding-left: 0px;
+}
+
+.Avatar {
+    overflow: hidden;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.Shop-details {
+    margin-left: 1.5rem;
+    min-width: 0px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.Shop-name {
+    width: 404px;
+    height: 29px;
+    font-family: "GTAmerica-Extended";
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Username {
+    width: 133px;
+    height: 14px;
+    font-family: "GTAmerica-Extended";
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #666666
+}
+
+.Followers-container {
+    margin-bottom: 1rem;
+}
+
+.Followers-and-numbers {
+    margin: 0px;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.Number-of-followers {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 35px;
+    height: 19px;
+    font-family: GTAmerica-Extended;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.Followers {
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.Following-number {
+    margin-left: 2rem;
+}
+
+.Following-number {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 35px;
+    height: 19px;
+    font-family: GTAmerica-Extended;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.Shop-description {
+    color: rgb(38, 38, 38);
+    width: 19.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.Shop-description p {
+    width: 484px;
+    height: 42px;
+    font-family: GTAmerica-Extended;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;   
+}
+
+.Shop-description a {
+    width: 484px;
+    height: 42px;
+    font-family: GTAmerica-Extended;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;   
+}
+
+.Selling-button {
+    margin-bottom: 1rem;
+    display: flex;
+}
