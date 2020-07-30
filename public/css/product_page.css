@@ -1,6 +1,6 @@
 body {
     font-weight: normal;
-    font-family: inherit;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -25,8 +25,308 @@ body {
     padding: 0px 1rem;
 }
 
+.Depop-logo {
+    width: 5.625rem;
+    height: 1.4375rem;
+    display: block;
+}
+
 .Main-container {
     max-width: 80rem;
     margin: 0px auto;
     padding: 0px 1rem;
+}
+
+.Product-page-layout {
+    display: grid;
+    grid-template-columns: minmax(300px, 640px) 375px;
+    padding: 1.5rem 0px 3rem;
+    gap: 35px;
+}
+
+.Images-block {
+    display: block;
+}
+
+.Image-container{
+    position: relative;
+    width: 100%;
+    min-width: 100%;
+    padding-top: 100%;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 0.5rem;
+}
+
+.Image-1 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.Image-2 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.Image-3 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.Image-4 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.User-profile-details {
+    padding-bottom: 1.5rem;
+}
+
+.Username-location {
+    display: block;
+}
+
+.Profile-container {
+    margin-bottom: 1.5rem;
+}
+
+.Main-user-details {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Profile-image {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0px;
+    margin-right: 0.75rem;
+    flex: 0 0 auto;
+}
+
+
+.Avatar {
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-image: initial;
+}
+
+.Username-container {
+    display: block;
+}
+
+.Username {
+    display: block;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(38, 38, 38);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Location {
+    display: block;
+    font-weight: normal;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    font-family: "GT America Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: rgb(153, 153, 153);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Trust-symbols {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.Sold-number-container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.Sold-tag {
+    color: rgb(61, 55, 189); {}
+}
+
+.Tag {
+    color: rgb(61, 55, 189);
+    display: block;
+}
+
+.Sold-number {
+    margin-left: 0.25rem;
+    font-size: 0.6875rem;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+}
+
+.Active-status-container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.Active-status {
+    color: rgb(61, 55, 189);
+    display: block;
+}
+
+.Active-symbol {
+    color: rgb(61, 55, 189);
+}
+
+.Last-active {
+    margin-left: 0.25rem;
+    font-size: 0.6875rem;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+}
+
+.Item-description {
+    display: block;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(38, 38, 38);
+    padding-bottom: 1rem;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+}
+
+.Price-and-size {
+    margin-bottom: 2rem;
+}
+
+.Item-price {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.Price-container {
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.Price {
+    overflow-wrap: break-word;
+    text-align: left;
+    font-weight: normal;
+    word-break: break-all;
+    padding: 0.5rem 0px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
+.Price-amount {
+    overflow-wrap: break-word;
+    text-align: right;
+    font-weight: normal;
+    word-break: break-all;
+    padding: 0.5rem 0px;
+}
+
+.Price-amount-container {
+    display: block;
+}
+
+.Price-in-pounds {
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.Size-availability {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.Size-container {
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.Size {
+    overflow-wrap: break-word;
+    text-align: left;
+    font-weight: normal;
+    word-break: break-all;
+    padding: 0.5rem 0px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.Size-amount-container {
+    display: block;
+}
+
+.Size-code {
+    overflow-wrap: break-word;
+    text-align: right;
+    font-weight: normal;
+    word-break: break-all;
+    padding: 0.5rem 0px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
 }
