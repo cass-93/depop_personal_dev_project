@@ -1,0 +1,8 @@
+.product-images {
+    color: rgb(38, 38, 38);
+    position: relative;
+    padding-bottom: 100%;
+    margin-bottom: 1rem;
+    background-color: rgb(234, 234, 234);
+    text-decoration: none;
+}
