@@ -1,3 +1,65 @@
+@font-face {
+  font-family: "GT America";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-Regular.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-Regular.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Extended";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExtendedRegular.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExtendedRegular.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExtendedRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Extended";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Extended-Bold.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Extended-Bold.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Extended-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Expanded";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedRegular.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedRegular.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Expanded";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Expanded-Bold.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Expanded-Bold.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GT-America-Expanded-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GT America Expanded Black";
+  src: url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedBlack.woff2') format('woff2'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedBlack.woff') format('woff'),
+  url('https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-ExpandedBlack.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-weight: normal;
+  font-family: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
 .Main-head {
   position: sticky;
   top: 0px;
@@ -24,29 +86,24 @@
 }
 
 .shop-name {
-  width: 404px;
-  height: 29px;
-  font-family: "GTAmerica-Extended";
-  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #000000;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0.25rem;
+  overflow: hidden;
 }
 
 .username {
-  width: 133px;
-  height: 14px;
-  font-family: "GTAmerica-Extended";
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #666666
+  color: rgb(153, 153, 153);
+  font-size: 0.8125rem;
+  max-width: 23.125rem;
+  text-overflow: ellipsis;
+  font-family: "GT America Extended", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  overflow: hidden;
 }
 
 .number-of-followers {
@@ -55,7 +112,7 @@
   white-space: nowrap;
   width: 35px;
   height: 19px;
-  font-family: GTAmerica-Extended;
+  font-family: "GT America Extended";
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -80,7 +137,7 @@
   white-space: nowrap;
   width: 35px;
   height: 19px;
-  font-family: GTAmerica-Extended;
+  font-family: "GT America Extended";
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -93,7 +150,7 @@
 .shop-bio {
   width: 484px;
   height: 42px;
-  font-family: GTAmerica-Extended;
+  font-family: "GT America Extended";
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -106,7 +163,7 @@
 .shop-link {
   width: 484px;
   height: 42px;
-  font-family: GTAmerica-Extended;
+  font-family: "GT America Extended";
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
