@@ -1,0 +1,9 @@
+.images-styling {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 0.25rem;
+    display: block;
+    min-width: 100%;
+    object-fit: cover;
+    font-size: 0px;
+}

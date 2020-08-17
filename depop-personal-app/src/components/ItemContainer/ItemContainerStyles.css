@@ -1,0 +1,6 @@
+.item-container {
+    display: block;
+    max-width: 80rem;
+    margin: 0px auto;
+    padding: 0px 1rem 4rem;
+}
