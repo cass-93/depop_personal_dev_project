@@ -1,10 +1,10 @@
 import React from 'react';
 import imageone from '../../item.jpg'
-import './ImageOneStyles.css';
+import './ImagesStyling.css';
 
 const ImageOne = () => {
     return (
-        <img src={imageone} className="image-one" alt="item one" width="245" height="245"
+        <img src={imageone} className="images-styling" alt="item one" width="245" height="245"
             sizes="
             (max-width: 576px) 150px, 
             (max-width: 1024px) 245px, 

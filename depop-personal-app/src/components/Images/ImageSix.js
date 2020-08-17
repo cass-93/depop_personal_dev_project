@@ -1,10 +1,10 @@
 import React from 'react';
-import imagethree from '../../item.jpg'
+import imagesix from '../../item.jpg'
 import './ImagesStyling.css';
 
-const ImageThree = () => {
+const ImageSix = () => {
     return(
-        <img src={imagethree} className="images-styling" alt="item three" width="245" height="245"
+        <img src={imagesix} className="images-styling" alt="item two" width="245" height="245"
             sizes="
             (max-width: 576px) 150px, 
             (max-width: 1024px) 245px, 
@@ -14,4 +14,4 @@ const ImageThree = () => {
     )
 }
 
-export default ImageThree;
+export default ImageSix;

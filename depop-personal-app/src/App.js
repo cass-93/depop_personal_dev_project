@@ -14,6 +14,15 @@ import ImageBoxes from './components/Images/ImageBoxes';
 import ImageOne from './components/Images/ImageOne';
 import ImageTwo from './components/Images/ImageTwo';
 import ImageThree from './components/Images/ImageThree';
+import ImageFour from './components/Images/ImageFour';
+import ImageFive from './components/Images/ImageFive';
+import ImageSix from './components/Images/ImageSix';
+import ImageSeven from './components/Images/ImageSeven';
+import ImageEight from './components/Images/ImageEight';
+import ImageNine from './components/Images/ImageNine';
+import ImageTen from './components/Images/ImageTen';
+import ImageEleven from './components/Images/ImageEleven';
+import ImageTwelve from './components/Images/ImageTwelve';
 
 import ProductPrice from './components/Products/ProductPrice';
 
@@ -73,6 +82,60 @@ function App() {
               <ImageBoxes>
                 <div className="sold-item-tag">Sold</div>
                 <ImageThree />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageFour />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageFive />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageSix />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageSeven />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageEight />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageNine />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageTen />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageEleven />
+                <ProductPrice />
+              </ImageBoxes>
+            </ProductImages>
+            <ProductImages>
+              <ImageBoxes>
+                <ImageTwelve />
                 <ProductPrice />
               </ImageBoxes>
             </ProductImages>
